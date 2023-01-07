@@ -21,11 +21,24 @@ _Some defined parameters were left ununsed._
 * s_read_0, s_read_1, s_read_2
 
 #### Transitions:
-* s_idle:
-	* To s_write_0:
-		1. Calibration is done (`calib_done==1`)
-		2. In write mode (`write_mode==1`)
-	* 
+* __s_idle__:
+	1. Calibration is done (`calib_done==1`)
+	* Go to __s_write_0__ with `ch0_en` if:
+		1. In write mode (`write_mode==1`)
+		1. `ib0_count >= BURST_UI_WORD_COUNT`
+	* Go to __s_write_0__ with `ch1_en` if:
+		1. In read mode (`read_mode==1`)
+		2. In running mode (`run_mode==1`)
+		3. `ib1_count >= BURST_UI_WORD_COUNT`
+	* Go to __s_write_0__ with `ch2_en` if:
+		1. In read mode (`read_mode==1`)
+		2. In running mode (`run_mode==1`)
+		3. `ib2_count >= BURST_UI_WORD_COUNT`
+	* Go to __s_read_0__ with `ch1_en` if:
+
+* __s_write_0__: goes to __s_write_1__
+* __s_write_1__: goes to __s_write_2__
+* __s_write_2__: 
 
 
 #

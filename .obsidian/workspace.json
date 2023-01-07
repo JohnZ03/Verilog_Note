@@ -25,7 +25,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Files/ddr3_test_v3.v.md",
+                "file": "Daily Notes/2023-01-07.md",
                 "mode": "source",
                 "source": false
               }
@@ -110,7 +110,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Files/ddr3_test_v3.v.md",
+                "file": "Daily Notes/2023-01-07.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -127,7 +127,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Files/ddr3_test_v3.v.md",
+                "file": "Daily Notes/2023-01-07.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -150,7 +150,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Files/ddr3_test_v3.v.md"
+                "file": "Daily Notes/2023-01-07.md"
               }
             }
           }
@@ -171,13 +171,14 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "79a0330efd3fd56f",
+  "active": "15844de0f43216d9",
   "lastOpenFiles": [
+    "README.md",
+    "Files/ddr3_test_v3.v.md",
     "Modules/u_ddr3_256_32.md",
     "Modules/i_ddr3_ctl.md",
     "IPs/ddr3_256_32.xci.md",
     "Files/Reveal_Top.v.md",
-    "Files/ddr3_test_v3.v.md",
     "Verilog/KEEP.md",
     "Unnoted/Memory Interface Generator.md"
   ]

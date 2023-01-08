@@ -4,15 +4,12 @@ This file contains:
 * External singal (FrontPanel) handler, for resetting and FSM control
 * FSM for <u>triple channel</u>(?) DDR3
 
-#
 ---
 ## Local Parameters:
 _Some defined parameters were left ununsed._
 
 * FIFO_SIZE
 
-
-#
 ---
 ## FSM:
 #### States:

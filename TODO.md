@@ -1,2 +1,3 @@
 - [ ] Go through addresses signals in [[ddr3_test_v3.v]]
-- [ ] trigger_camera_exposure exposure_handshake
+- [x] trigger_camera_exposure exposure_handshake
+- [ ] 

@@ -8,43 +8,18 @@
         "type": "tabs",
         "children": [
           {
-            "id": "ab87de0de71ddc94",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Modules/u_ddr3_256_32.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "15844de0f43216d9",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Files/ddr3_test_v3.v.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
             "id": "692492b9a1c08fa3",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "TODO.md",
+                "file": "Files/trigger_camera_exposure.v.md",
                 "mode": "source",
                 "source": false
               }
             }
           }
-        ],
-        "currentTab": 2
+        ]
       }
     ],
     "direction": "vertical"
@@ -110,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "TODO.md",
+                "file": "Files/trigger_camera_exposure.v.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -127,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "TODO.md",
+                "file": "Files/trigger_camera_exposure.v.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -150,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "TODO.md"
+                "file": "Files/trigger_camera_exposure.v.md"
               }
             }
           }
@@ -173,15 +148,15 @@
   },
   "active": "692492b9a1c08fa3",
   "lastOpenFiles": [
-    "Daily Notes/2023-01-07.md",
     "Files/ddr3_test_v3.v.md",
-    "TODO.md",
     "Files/Reveal_Top.v.md",
-    "IPs/ddr3_256_32.xci.md",
-    "README.md",
+    "Files/trigger_camera_exposure.v.md",
     "Modules/u_ddr3_256_32.md",
     "Modules/i_ddr3_ctl.md",
-    "Verilog/KEEP.md",
-    "Unnoted/Memory Interface Generator.md"
+    "Modules/exposure_handshake.md",
+    "IPs/ddr3_256_32.xci.md",
+    "README.md",
+    "TODO.md",
+    "Verilog/KEEP.md"
   ]
 }

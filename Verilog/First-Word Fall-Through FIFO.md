@@ -1,0 +1,6 @@
+“First-Word Fall-Through” means that **the data at the head of the FIFO is immediately presented on the data output lines**. By treating the empty signal as ! valid and read_en as ready, the read interface of a First-Word Fall-Through FIFO conforms to the ready/valid semantic we have been using in other modules.
+
+***
+Native Interface FIFOs by Xilinx supports FWFT FIFO, according to [UG175](https://docs.xilinx.com/v/u/en-US/fifo_generator_ug175).
+
+The first-word fall-through (FWFT) feature provides the ability to look ahead to the next word available from the FIFO without having to issue a read operation. The FIFO accomplishes this by using output registers which are automatically loaded with data, when data appears in the FIFO. This causes the first word written to the FIFO to automatically appear on the data out bus (DOUT). Subsequent user read operations cause the output data to update with the next word, as long as data is available in the FIFO. The use of registers on the FIFO DOUT bus improves clock-to-output timing, and the FWFT functionality provides low-latency access to data. This is ideal for applications that require throttling, based on the contents of the data that are read.

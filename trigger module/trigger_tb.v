@@ -12,7 +12,7 @@ module trigger_tb;
     end
 
     // RESET
-    reg reset=0;
+    reg reset=1;
 
     // fifo signals
     reg fifo_wr_en=0;
@@ -35,9 +35,9 @@ module trigger_tb;
 
     initial
     begin
-        reset = 1;
-        #40;
         reset = 0;
+        #40;
+        reset = 1;
 
         // Check upper bound trigger
         fifo_wr_en = 1;

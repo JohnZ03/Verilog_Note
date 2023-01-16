@@ -38,7 +38,7 @@ module trigger_from_FIFO(
 
     // Sequential check for upper bound
 	always @ (posedge clk, negedge reset) begin
-        if (reset) begin
+        if (!reset) begin
             trigger_FIFO_full_reg <= 1'b0;
         end
         else begin
@@ -71,8 +71,8 @@ module trigger_from_FIFO(
     end
 
     // Sequential check for lower bound
-    always @ (posedge clk) begin
-        if (reset) begin
+    always @ (posedge clk, negedge reset) begin
+        if (!reset) begin
             trigger_FIFO_empty_reg <= 1'b0;
         end
         else begin

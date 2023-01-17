@@ -7,15 +7,16 @@ If this happens:
 
 Run `which udevadm`
 
-Replace the given path into `install.sh`
+Replace the given path into `install.sh`, on line 9 and 10
 
 ### After installation:
+`sudo apt-get install -y libsdl2-2.0-0`
+
+If this shows up:
 `libssl.so.1.1: cannot open shared object file: No such file or directory`
-
-Missing lib `libssl1.1_1.1.1f-1ubuntu2.16_amd64.deb`
-
-Can be downloaded [here](http://archive.ubuntu.com/ubuntu/pool/main/o/openssl/libssl1.1_1.1.1f-1ubuntu2_amd64.deb).
-Package source [website](https://ubuntu.pkgs.org/20.04/ubuntu-main-amd64/libssl1.1_1.1.1f-1ubuntu2_amd64.deb.html).
+Missing lib `libssl1.1`
+Can be downloaded [here](https://packages.ubuntu.com/focal/libssl1.1).
+***
 
 ### Once connected to the board:
 `Failed to load module "canberra-gtk-module"`

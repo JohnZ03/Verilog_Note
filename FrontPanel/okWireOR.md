@@ -1,5 +1,3 @@
-source: [FrontPanel-UM](https://assets00.opalkelly.com/library/FrontPanel-UM.pdf)
-***
 Multiple endpoints are attached to the `ok2` bus on the `okHost` by using a Wire-OR. Each endpoint is told when it can assert its data on the bus. At all other times, it drives 0. The Wire-OR component performs a bitwise OR operation on each bit of the bus and outputs the result. In this manner, multiple endpoints can share a bus without requiring the use of tristates or a large mux.
 
 The `okWireOR` is provided as a parameterized helper module in `okLibrary.v` and `okLibrary.vhd`. Please refer to the provided samples to see how to instantiate this module.

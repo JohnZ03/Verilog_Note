@@ -48,6 +48,3 @@ FrontPanel uses the `FlashErase`, `FlashWrite`, and `FlashRead` APIs to erase an
 
 ### FPGA Flash Programming:
 Programming the FPGA Flash requires FrontPanel to configure the FPGA with a special bitfile that allows FrontPanel to access the Flash memory. This bitfile is first downloaded to the FPGA before the Flash erase or programming steps are performed.
-
-***
-A sample use can be found [here](Simple%20Example.md).

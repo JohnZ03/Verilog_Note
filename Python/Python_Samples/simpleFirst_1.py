@@ -32,7 +32,7 @@ if(error==0):
 	dev.UpdateWireOuts()
 	C = dev.GetWireOutValue(0x21)
 
-	if(C = A+B):
+	if(C == A+B):
 		print("****************SUCCESS*****************")
 	else:
 		print("****************OOOPSSS*****************")

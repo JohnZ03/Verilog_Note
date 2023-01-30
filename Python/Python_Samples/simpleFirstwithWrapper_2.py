@@ -24,7 +24,7 @@ if __name__ == '__main__':
 	dev.wire_in(0x02,B)
 	C = dev.wire_out(0x21,C)
 
-	if(C = A+B):
+	if(C == A+B):
 		print("****************SUCCESS*****************")
 	else:
 		print("****************OOOPSSS*****************")

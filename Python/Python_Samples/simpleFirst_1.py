@@ -3,7 +3,7 @@ import ok
 # ref: https://opalkelly.com/examples/configure-the-fpga/#tab-python
 devices = ok.FrontPanelDevices()
 dev     = devices.Open()
-error = dev.ConfigureFPGA('your_bitfile_goes_here.bit')
+error = dev.ConfigureFPGA('First.bit')
 
 print(error)
 # error codes: https://docs.opalkelly.com/fpsdk/frontpanel-api/error-codes/
@@ -36,3 +36,4 @@ if(error==0):
 		print("****************SUCCESS*****************")
 	else:
 		print("****************OOOPSSS*****************")
+		

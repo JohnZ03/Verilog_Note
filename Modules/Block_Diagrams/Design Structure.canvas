@@ -19,14 +19,15 @@
 		{"id":"dc29d17242f57d1a","x":360,"y":-136,"width":194,"height":60,"color":"4","type":"text","text":"Verilog\nDesign & Simulation"},
 		{"id":"533ecde9bed8bda4","x":-378,"y":250,"width":189,"height":60,"type":"text","text":"T7 doc on it's way"},
 		{"id":"943d368457389cd2","x":200,"y":220,"width":250,"height":60,"color":"5","type":"text","text":"FrontPanel Firmware\n"},
+		{"id":"17f62e85489501b4","x":108,"y":332,"width":185,"height":76,"color":"4","type":"text","text":"[pipeline sample](https://opalkelly.com/examples/transferring-data/#tab-python)\n[wire sample](https://opalkelly.com/examples/simple-pin-io/#tab-cpp)"},
 		{"id":"c962468071ded658","x":530,"y":47,"width":290,"height":60,"color":"4","type":"text","text":"[FrontPanel SDK user manual](https://docs.opalkelly.com/fpsdk/)"},
 		{"id":"daef495b898eff53","x":520,"y":220,"width":250,"height":60,"color":"5","type":"text","text":"Python API (runs on PC)"},
 		{"id":"f0d1256dbe30d527","x":520,"y":340,"width":250,"height":60,"color":"2","type":"text","text":"Data Restoration (Python)"},
 		{"id":"af9b82904a316d46","x":615,"y":463,"width":60,"height":60,"type":"text","text":"CV"},
 		{"id":"7e29f43844e67ec2","x":840,"y":280,"width":154,"height":60,"color":"3","type":"text","text":"Use of the API"},
 		{"id":"669d46f8bd8d64fa","x":659,"y":-136,"width":161,"height":60,"color":"4","type":"text","text":"[FrontPanel-UM](https://assets00.opalkelly.com/library/FrontPanel-UM.pdf)"},
-		{"id":"17f62e85489501b4","x":108,"y":332,"width":185,"height":76,"color":"4","type":"text","text":"[pipeline sample](https://opalkelly.com/examples/transferring-data/#tab-python)\n[wire sample](https://opalkelly.com/examples/simple-pin-io/#tab-cpp)"},
-		{"id":"6ef6164ca43a1ac4","x":201,"y":17,"width":250,"height":60,"color":"2","type":"text","text":"Firmware (Verilog)"}
+		{"id":"6ef6164ca43a1ac4","x":201,"y":17,"width":250,"height":60,"color":"2","type":"text","text":"Firmware (Verilog)"},
+		{"id":"80f9c41e70e29292","x":93,"y":523,"width":400,"height":125,"type":"file","file":"Images/Pasted image 20230202103822.png"}
 	],
 	"edges":[
 		{"id":"4befda2ad77a31f0","fromNode":"085a65229dc700a0","fromSide":"left","toNode":"2e1e075b5edf4895","toSide":"right"},
@@ -52,6 +53,7 @@
 		{"id":"b11cd13a95149028","fromNode":"7e29f43844e67ec2","fromSide":"top","toNode":"c962468071ded658","toSide":"right"},
 		{"id":"33183da091607595","fromNode":"55ce3f0b3f33433f","fromSide":"left","toNode":"d0231d36f8d24a90","toSide":"right"},
 		{"id":"4ea0841c40893c67","fromNode":"dc29d17242f57d1a","fromSide":"right","toNode":"669d46f8bd8d64fa","toSide":"left"},
-		{"id":"ef2bbbc3f9167cf9","fromNode":"943d368457389cd2","fromSide":"bottom","toNode":"17f62e85489501b4","toSide":"top"}
+		{"id":"ef2bbbc3f9167cf9","fromNode":"943d368457389cd2","fromSide":"bottom","toNode":"17f62e85489501b4","toSide":"top"},
+		{"id":"49be6300036f37c2","fromNode":"80f9c41e70e29292","fromSide":"top","toNode":"943d368457389cd2","toSide":"bottom"}
 	]
 }

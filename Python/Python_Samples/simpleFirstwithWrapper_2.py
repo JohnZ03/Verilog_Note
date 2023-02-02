@@ -19,7 +19,7 @@ if __name__ == '__main__':
 	A = 0x0F
 	B = 0x03
 
-	dev.wire_in(0x00,0x11)
+	dev.wire_in(0x00,0x88)
 	dev.wire_in(0x01,A)
 	dev.wire_in(0x02,B)
 	C = dev.wire_out(0x21)

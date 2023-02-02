@@ -1,3 +1,5 @@
+TODO: add description
+
 10 references in [[Reveal_Top.v]], [version](https://github.com/ISMLImageSensors/REVEAL_T6/tree/71c2e81875e4e5bbef3239ee94c98196a206f2c4/src)
 1. Initialization
 2. Initialization (redundant)

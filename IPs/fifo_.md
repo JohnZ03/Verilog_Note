@@ -29,6 +29,9 @@ If C is less than log2(FIFO depth)-1, the bus is truncated by removing the least
 ### FULL (output):
 When asserted, this signal indicates that the FIFO is full. Write requests are ignored when the FIFO is full, __initiating a write when the FIFO is full is not destructive to the contents of the FIFO__.
 
+### ALMOST_FULL (output):
+When asserted, this signal indicates that only one more write can be performed before the FIFO is full.
+
 ### EMPTY (output):
 When asserted, this signal indicates that the FIFO is empty. Read requests are ignored when the FIFO is empty, initiating a read while empty is not destructive to the FIFO.
 

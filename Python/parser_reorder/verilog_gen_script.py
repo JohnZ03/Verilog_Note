@@ -18,4 +18,4 @@ output_wire_name = "output_o"
 
 with open('wire_assign_v.txt', 'w') as file:
     for i in range(col_width):
-        file.write("assign {}[{}] = {}[{}];\n".format(input_wire_name, i, output_wire_name, mapping_array[i]))
+        file.write("assign {}[{}] = {}[{}];\n".format(output_wire_name, i, input_wire_name, mapping_array[i]))
